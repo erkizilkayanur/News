@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/sondakikaId" android:icon="@android:drawable/ic_menu_camera"
+            android:title="Son Dakika" />
+        <item android:id="@+id/gundemId" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Gündem" />
+        <item android:id="@+id/ekonomiId" android:icon="@drawable/ekonomi"
+            android:title="Ekonomi" />
+        <item android:id="@+id/dunyaId" android:icon="@drawable/dunya"
+            android:title="Dünya" />
+        <item android:id="@+id/magazinId" android:icon="@drawable/dunya"
+            android:title="Magazin" />
+        <item android:id="@+id/teknolojiId" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Teknoloji" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
